@@ -21,7 +21,7 @@ public class Queue {
 			head++;
 			queue[tail]=queue[head];
 			tail++;
-			head++;		
+			head++;	
 		}				
 	}
 
