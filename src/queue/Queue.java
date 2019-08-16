@@ -10,7 +10,7 @@ public class Queue {
 		System.out.println("615947283");
 	}
 	public static void Queue1(int[] arr){		
-		int[] queue=new int[64];
+		int[] queue=new int[30];
 		for(int i=0;i<arr.length;i++){
 			queue[i]=arr[i];
 		}
@@ -21,8 +21,7 @@ public class Queue {
 			head++;
 			queue[tail]=queue[head];
 			tail++;
-			head++;	
-		}				
+			head++;
+		}
 	}
-
 }
